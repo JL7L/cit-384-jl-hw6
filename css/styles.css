@@ -1,26 +1,49 @@
-/* Color Palette
-# - b2b2b2
-# - color 2
-# - color 3
-# - color 4
+/* https://colorhunt.co/palette/0a26471442722052952c74b3
+#0A2647
+#144272
+#205295
+#2C74B3
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    background: #b2b2b2;
+    font-family: 'Roboto Slab', serif;
 }
-
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+    color: grey;
+}
 
 /* Header & Footer 
 ------------------------------------*/
+header {
+    background: #0A2647;
+    color: grey;
+    font-family: 'Bitter', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
 
-
+footer {
+    background: #2C74B3;
+    color: whitesmoke;
+    font-family: 'Bitter', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 /* Work Experience
 ------------------------------------*/
-
+#Work {
+    background:#144272 ;
+}
 
 
 /* Education
 ------------------------------------*/
+#Education {
+    background: #205295;
+}
