@@ -1,49 +1,69 @@
-/* https://colorhunt.co/palette/0a26471442722052952c74b3
-#0A2647
-#144272
-#205295
-#2C74B3
+/* https://colorhunt.co/palette/1a374d4068826998abb1d0e0
+#1A374D
+#406882
+#6998AB
+#B1D0E0
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
     font-family: 'Roboto Slab', serif;
-}
-h1, h2 {
-    font-family: 'Roboto Slab', serif;
-    color: grey;
+    margin: 0;
 }
 
-/* Header & Footer 
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 2.8em;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 1.7em;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+#copyright {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Header  
 ------------------------------------*/
 header {
-    background: #0A2647;
-    color: grey;
-    font-family: 'Bitter', serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Ubuntu', sans-serif;
+    background: #1A374D;
+    color: rgb(172, 172, 172);
+    font-family: 'Golos Text', sans-serif;
 }
-
-footer {
-    background: #2C74B3;
-    color: whitesmoke;
-    font-family: 'Bitter', serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-/* Work Experience
-------------------------------------*/
-#Work {
-    background:#144272 ;
-}
-
 
 /* Education
 ------------------------------------*/
 #Education {
-    background: #205295;
+    background: #6998AB;
+    font-family: 'Roboto Slab', serif;   
+}
+
+/* Awards and Relevant Coursework
+------------------------------------*/
+#Work {
+    background:#406882;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Footer 
+------------------------------------*/
+footer {
+    background: #B1D0E0;
+    font-family: 'Roboto Slab', serif;
 }
